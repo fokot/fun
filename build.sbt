@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion     := "2.13.10"
+ThisBuild / scalaVersion     := "2.13.14"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "com.example"
 ThisBuild / organizationName := "example"
@@ -7,8 +7,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "fun",
     libraryDependencies ++= Seq(
-      "org.scalameta" %% "munit" % "0.7.29" % Test,
-      "dev.zio" %% "zio" % "2.0.10"
+      "org.scalameta" %% "munit" % "1.0.0" % Test,
+      "dev.zio" %% "zio" % "2.1.6"
     )
   )
 
