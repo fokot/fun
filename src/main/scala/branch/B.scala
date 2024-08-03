@@ -2,6 +2,6 @@ package branch
 
 object B {
 
-  def f: String = "b"
+  def f: String = "bbb"
 
 }
